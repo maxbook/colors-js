@@ -1,6 +1,6 @@
 function cssHexToRgb(hexaCss) {
   var hexa = (hexaCss.charAt(0) == '#') ? hexaCss.slice(1, 7) : hexaCss;
-  rgb = {
+  var rgb = {
     r : parseInt('0x'+hexa.slice(0,2), 16),
     g : parseInt('0x'+hexa.slice(2,4), 16),
     b : parseInt('0x'+hexa.slice(4,6), 16)
